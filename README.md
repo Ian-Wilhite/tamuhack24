@@ -1,3 +1,5 @@
+TAMUHACK X Project Submission 
+
 I'll save you the read before you get too far, SafeSurf doesnt work. 
 
 This project was designed for the 2024 TAMUhack X hackathon, and was intended to create a chrome enabled browser extention for children that would block "adult" websites, then would prompt for camera access and use OpenCV in python to determine the users age, then to conditionally return access. For a number of factors, two team members dropped and the project didnt get as far as it should have. Out of integrity of what was accomplished in the time provided, I think it is incredibly important to keep the files up and availible, even if a display of suboptimal work.
