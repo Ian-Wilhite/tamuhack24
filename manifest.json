@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Age Verification Extension",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "webRequest",
+      "webRequestBlocking",
+      "https://127.0.0.1:5000/*"
+    ],
+    "host_permissions": [
+        "https://127.0.0.1:5000/*"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png"
+      }
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+}
